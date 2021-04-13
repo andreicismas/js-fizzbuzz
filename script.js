@@ -17,11 +17,11 @@ for (var i = 0; i < 100; i++) {
         Fizz.innerHTML += "<li>" + i + " " + "io sono Fizz" + "</li>"
     }
     //stampa il multiplo 5 
-    else if (i % 5 === 0){
-    console.log(i + " " + "io sono Buzz" + " " + "% 5");
-    Buzz.innerHTML += "<li>" + i + " " + "io sono Buzz" + "</li>"
+    else if (i % 5 === 0) {
+        console.log(i + " " + "io sono Buzz" + " " + "% 5");
+        Buzz.innerHTML += "<li>" + i + " " + "io sono Buzz" + "</li>"
     }
-    else(i)
+    else ("")
     //eventuale stampo in /console o doc html
 
 
