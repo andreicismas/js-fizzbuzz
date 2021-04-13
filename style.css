@@ -1,3 +1,33 @@
-h1{
-    color: red;
+body{
+    background-color: rgb(155, 237, 100);
+}
+.title {
+    color: burlywood;
+    text-decoration: underline violet;
+    text-align: center;
+}
+
+.pull-right {
+    display: flex;
+    justify-content: space-around;
+    animation: colori 5s infinite;
+}
+
+.title_column{
+    list-style: none;
+    align-self: center;
+}
+
+@keyframes colori{
+    0% {
+        color: #000;
+    }
+    20% {
+        color: rgb(94, 66, 66);
+    }
+    40% {  color: rgb(153, 60, 60);}
+
+    60% {  color: rgb(134, 133, 55);}
+    80% {  color: rgb(44, 23, 23);}
+    100% {color: black;}
 }
